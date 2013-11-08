@@ -1,0 +1,136 @@
+{
+    "education": [
+    {
+        "name": "Snapshot",
+        "indicators": [
+            "facility_name",
+            "facility_type",
+            "improved_water_supply",
+            "chalkboard_each_classroom_yn",
+            "num_tchrs_with_nce",
+            "num_tchrs_total",
+            "num_students_total",
+            "num_classrms_total"
+        ]
+    },
+    {
+        "name": "Infrastructure",
+        "indicators": [
+            "facility_name",
+            "facility_type",
+            "community",
+            "chalkboard_each_classroom_yn",
+            "improved_water_supply",
+            "improved_sanitation",
+            "phcn_electricity",
+            "photo_repairs", # ITS A PHOTO!
+            "num_toilets", # ? in 661/113/pilot
+        ],
+    },
+    {
+        "name": "Gender Breakdown",
+        "indicators": [
+            "num_students_total",
+            "num_students_male",
+            "num_students_female",
+            "num_tchrs_total",
+            "num_tchrs_male",
+            "num_tchrs_female",
+        ],
+    },
+    {
+        "name": "Basic Information",
+        "indicators": [
+            "facility_name",
+            "facility_type",
+            "date_of_survey",
+            "education_type",
+            "facility_ID",
+            "community",
+            "ward", 
+            "owner_manager", # management?
+            ],
+    },
+    ],
+    "health": [
+    {
+        "name": "Snapshot",
+        "indicators": [
+            "facility_name",
+            "facility_type",
+            "maternal_health_delivery_services", #deliveries_yn in mop_up
+            "emergency_transport", # transport_yn in mop-up
+            "skilled_birth_attendant",
+            "num_chews_total", # num_chews in mop-up
+            "phcn_electricity",
+            "comprehensive_obstetrics_yn", #c_section_yn
+            "measles_yn" # child_health_measles_immun_calc in 661/113/pilot
+        ],
+    },
+    {
+        "name": "Staffing",
+        "indicators": [
+            "facility_name",
+            "facility_name",
+            "num_chews_total", # num_chews in mop-up
+            "num_nurses_fulltime", # num_nurses in mop-up
+            "num_nursemidwives_fulltime", #num_midwives in mop-up
+            "num_doctors_fulltime", 
+        ],
+    },
+    {
+        "name": "Basic Information",
+        "indicators": [
+            "facility_name",
+            "facility_type",
+            "date_of_survey",
+            "facility_ID",
+            "community",
+            "ward", 
+            "owner_manager", # management?
+            ],
+    },
+    {
+        "name": "Infrastructure"
+        "indicators": [
+            "facility_name", 
+            "facility_type", 
+            "improved_water_supply", 
+            "improved_sanitation",
+            "phcn_electricity",
+            "vaccines_fridge_freezer", # vaccine_fridge_yn in mop-up
+            "maternity_ward", # ? in 661/113/pilot
+            "emergency_transport" # transport_yn in mop-up
+        ], 
+    }, 
+    {
+        "name": "Services",
+        "indicators": [
+            "facility_name", 
+            "facility_type", 
+            "maternal_health_delivery_services", # deliveries_yn
+            "antenatal_yn", # check in 661/113/pilot
+            "comprehensive_obstetrics_yn", #c_section_yn
+            "measles_yn", # child_health_measles_immun_calc in 661/113/pilot
+            "family_planning_yn", # ? in 661/113/pilot
+            "malaria_treatment_artemisinin" # malaria_yn in mop-up
+        ],
+    }
+    ],
+    "water": [
+        {
+            "indicators": [
+                "water_source_type", 
+                "community", 
+                "ward", 
+                "is_improved", 
+                "functional", 
+                "breakdown", 
+                "lift_mechanism", 
+                "pay_for_water_yn", 
+                "distribution_type"
+            ], 
+            "name": "General"
+        }
+    ]
+}
