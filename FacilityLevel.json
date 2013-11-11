@@ -30,6 +30,8 @@
     {
         "name": "Gender Breakdown",
         "indicators": [
+            "facility_name",
+            "facility_type",
             "num_students_total",
             "num_students_male",
             "num_students_female",
@@ -71,7 +73,7 @@
         "name": "Staffing",
         "indicators": [
             "facility_name",
-            "facility_name",
+            "facility_type",
             "num_chews_total", # num_chews in mop-up
             "num_nurses_fulltime", # num_nurses in mop-up
             "num_nursemidwives_fulltime", #num_midwives in mop-up
