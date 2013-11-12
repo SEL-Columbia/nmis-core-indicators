@@ -18,14 +18,13 @@
         "indicators": [
             "facility_name",
             "facility_type",
-            "community",
             "chalkboard_each_classroom_yn",
             "improved_water_supply",
             "improved_sanitation",
             "phcn_electricity",
-            "photo_repairs", # ITS A PHOTO!
-            "num_toilets", # ? in 661/113/pilot
-        ],
+            "photo_repairs", 
+            "num_toilets_total" 
+        ]
     },
     {
         "name": "Gender Breakdown",
@@ -37,8 +36,8 @@
             "num_students_female",
             "num_tchrs_total",
             "num_tchrs_male",
-            "num_tchrs_female",
-        ],
+            "num_tchrs_female"
+        ]
     },
     {
         "name": "Basic Information",
@@ -50,35 +49,34 @@
             "facility_ID",
             "community",
             "ward", 
-            "owner_manager", # management?
-            ],
+            "management"
+            ]
     },
-    ],
     "health": [
     {
         "name": "Snapshot",
         "indicators": [
             "facility_name",
             "facility_type",
-            "maternal_health_delivery_services", #deliveries_yn in mop_up
-            "emergency_transport", # transport_yn in mop-up
+            "delivery_services", 
+            "emergency_transport",
             "skilled_birth_attendant",
-            "num_chews_total", # num_chews in mop-up
+            "num_chews_fulltime",
             "phcn_electricity",
-            "comprehensive_obstetrics_yn", #c_section_yn
-            "measles_yn" # child_health_measles_immun_calc in 661/113/pilot
-        ],
+            "c_section_yn",
+            "measles_yn" 
+        ]
     },
     {
         "name": "Staffing",
         "indicators": [
             "facility_name",
             "facility_type",
-            "num_chews_total", # num_chews in mop-up
-            "num_nurses_fulltime", # num_nurses in mop-up
-            "num_nursemidwives_fulltime", #num_midwives in mop-up
+            "num_chews_fulltime", 
+            "num_nurses_fulltime",
+            "num_midwives_fulltime",
             "num_doctors_fulltime", 
-        ],
+        ]
     },
     {
         "name": "Basic Information",
@@ -89,8 +87,8 @@
             "facility_ID",
             "community",
             "ward", 
-            "owner_manager", # management?
-            ],
+            "management", 
+            ]
     },
     {
         "name": "Infrastructure"
@@ -110,13 +108,13 @@
         "indicators": [
             "facility_name", 
             "facility_type", 
-            "maternal_health_delivery_services", # deliveries_yn
-            "antenatal_yn", # check in 661/113/pilot
-            "comprehensive_obstetrics_yn", #c_section_yn
-            "measles_yn", # child_health_measles_immun_calc in 661/113/pilot
-            "family_planning_yn", # ? in 661/113/pilot
-            "malaria_treatment_artemisinin" # malaria_yn in mop-up
-        ],
+            "delivery_services",
+            "antenatal_care_yn", 
+            "c_section_yn"
+            "measles_yn", 
+            "family_planning_yn", 
+            "malaria_treatment_artemisinin"
+        ]
     }
     ],
     "water": [
