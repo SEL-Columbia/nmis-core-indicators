@@ -44,6 +44,7 @@
         "indicators": [
             "facility_name",
             "facility_type",
+            "short_id",
             "date_of_survey",
             "education_type",
             "facility_ID",
@@ -83,6 +84,7 @@
         "indicators": [
             "facility_name",
             "facility_type",
+            "short_id",
             "date_of_survey",
             "facility_ID",
             "community",
