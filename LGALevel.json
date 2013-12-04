@@ -1,0 +1,164 @@
+{
+    "education": [
+    {
+        "name": "Facilities",
+        "indicators": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "General information for Primary Schols",
+        "indicators": [
+            "",
+            "",
+            "" 
+        ]
+    },
+    {
+        "name": "General information for Junior Secondary Schols",
+        "indicators": [
+            "",
+            "",
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Infrastructure in Primary Schools",
+        "indicators": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "", 
+            ""
+            ]
+    },
+    {
+        "name": "Infrastructure in Junior Secondary Schools",
+        "indicators": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "", 
+            ""
+            ]
+    },
+    {
+        "name": "Ratios -- Primary Schools",
+        "indicators": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "", 
+            ""
+            ]
+    },
+    {
+        "name": "Ratios -- Junior Secondary Schools",
+        "indicators": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "", 
+            ""
+            ]
+    },
+    {
+        "name": "Teacher Qualifications",
+        "indicators": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "", 
+            ""
+            ]
+    },
+    "health": [
+    {
+        "name": "Facilities",
+        "indicators": [
+            "",
+            "",
+            "", 
+            "",
+            "",
+            "",
+            "",
+            "",
+            "" 
+        ]
+    },
+    {
+        "name": "Staffing",
+        "indicators": [
+            "",
+            "",
+            "", 
+            "",
+            "",
+            "", 
+        ]
+    },
+    {
+        "name": "Services that are provided at Hospitals only",
+        "indicators": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "", 
+            "", 
+            ]
+    },
+    {
+        "name": "Services that are provided at all faciltiies except for Health Posts"
+        "indicators": [
+            "", 
+            "", 
+            "", 
+            "",
+            "",
+            "",
+            "", 
+            "" 
+        ], 
+    }, 
+    {
+        "name": "Services that are provided at all facilities including Health Posts",
+        "indicators": [
+            "", 
+            "", 
+            "",
+            ""
+        ]
+    },
+    {
+        "name": "Infrastructure -- All facilities",
+        "indicators": [
+            "", 
+            "", 
+            "",
+            ""
+        ]
+    }
+  ]  
+}
