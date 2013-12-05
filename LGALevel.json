@@ -3,8 +3,10 @@
     {
         "name": "Facilities",
         "indicators": [
-            "",
-            "",
+            "num_primary_schools",
+            "num_junior_secondary_schools",
+            "num_senior_secondary_schools",
+            "num_schools",
             "",
             ""
         ]
@@ -12,14 +14,22 @@
     {
         "name": "General information for Primary Schols",
         "indicators": [
+            "num_primary_schools",
             "",
             "",
-            "" 
+            "",
+            "",
+            "",
+            "",
+            ""
         ]
     },
     {
         "name": "General information for Junior Secondary Schols",
         "indicators": [
+            "num_junior_secondary_schools",
+            "",
+            "",
             "",
             "",
             "",
@@ -29,136 +39,133 @@
     {
         "name": "Infrastructure in Primary Schools",
         "indicators": [
+            "num_primary_schools",
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "", 
-            ""
+            "pupil_toilet_ratio_primary",
+            "proportion_schools_chalkboard_all_rooms_primary"
             ]
     },
     {
         "name": "Infrastructure in Junior Secondary Schools",
         "indicators": [
+            "num_junior_secondary_schools",
             "",
             "",
             "",
-            "",
-            "",
-            "",
-            "", 
-            ""
+            "pupil_toilet_ratio_secondary", 
+            "proportion_schools_chalkboard_all_rooms_juniorsec"
             ]
     },
     {
         "name": "Ratios -- Primary Schools",
         "indicators": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "", 
-            ""
+            "student_classroom_ratio_lga_primary",
+            "primary_school_pupil_teachers_ratio_lga",
+            "gender_parity_index_primary",
+            "gender_parity_index_js"
             ]
     },
     {
         "name": "Ratios -- Junior Secondary Schools",
         "indicators": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "", 
-            ""
+            "student_classroom_ratio_lga_juniorsec",
+            "junior_secondary_school_pupil_teachers_ratio_lga",
+            "gender_parity_index_primary",
+            "gender_parity_index_js"
             ]
-    },
+    }
     {
         "name": "Teacher Qualifications",
         "indicators": [
+            "proportion_teachers_nce_primary", 
+            "proportion_teachers_nce_juniorsec"
+            ]
+    },
+    {
+        "name": "Education Facilities Summary",
+        "indicators": [
+            "num_primary_schools", 
             "",
             "",
-            "",
-            "",
-            "",
-            "",
-            "", 
+            "num_schools",
+            "student_teacher_ratio_lga",
             ""
             ]
     },
+
     "health": [
     {
         "name": "Facilities",
         "indicators": [
-            "",
-            "",
-            "", 
-            "",
-            "",
-            "",
-            "",
-            "",
-            "" 
+            "num_level_1_health_facilities",
+            "num_level_2_health_facilities",
+            "num_level_3_health_facilities", 
+            "num_level_4_health_facilities",
+            "num_level_other_health_facilities",
+            "num_health_facilities"
         ]
     },
     {
         "name": "Staffing",
         "indicators": [
-            "",
-            "",
-            "", 
-            "",
-            "",
-            "", 
+            "num_doctors",
+            "num_nursemidwives_midwives",
+            "num_nurses",
+            "num_chews" 
         ]
     },
     {
         "name": "Services that are provided at Hospitals only",
         "indicators": [
-            "",
-            "",
-            "",
-            "",
-            "",
             "", 
-            "", 
+            "" 
             ]
     },
     {
         "name": "Services that are provided at all faciltiies except for Health Posts"
         "indicators": [
-            "", 
-            "", 
-            "", 
             "",
             "",
-            "",
-            "", 
-            "" 
+            "proportion_delivery_24_7_sansHP", 
+            "proportion_vaccines_fridge_freezer_sansHP" 
         ], 
     }, 
     {
         "name": "Services that are provided at all facilities including Health Posts",
         "indicators": [
-            "", 
-            "", 
-            "",
-            ""
+            "num_health_facilities", 
+            "proportion_antenatal", 
+            "proportion_family_planning",
+            "proportion_access_functional_emergency_transport",
+            "proportion_act_treatment_for_malaria",
+            "proportion_measles"
         ]
     },
     {
         "name": "Infrastructure -- All facilities",
         "indicators": [
-            "", 
-            "", 
-            "",
+            "num_health_facilities", 
+            "proportion_improved_water_supply", 
+            "proportion_improved_sanitation",
+            "phcn_electricity",
             ""
         ]
+    },
+    {
+        "name": "Health Facilities Summary",
+        "indicators": [
+            "num_level_1_health_facilities",
+            "num_level_2_health_facilities",
+            "num_level_3_health_facilities", 
+            "num_level_4_health_facilities",
+            "", 
+            "facilities_emergency_transport",
+            "facilities_skilled_birth_attendant",
+            "facilities_measles"
+        ]
     }
+
   ]  
 }
