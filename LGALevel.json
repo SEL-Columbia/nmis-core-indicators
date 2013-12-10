@@ -149,7 +149,7 @@
             "num_health_facilities", 
             "proportion_improved_water_supply", 
             "proportion_improved_sanitation",
-            "phcn_electricity",
+            "proportion_phcn_electricity",
             ""
         ]
     },
