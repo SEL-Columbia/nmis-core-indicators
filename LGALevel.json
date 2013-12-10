@@ -7,42 +7,42 @@
             "num_junior_secondary_schools",
             "num_senior_secondary_schools",
             "num_schools",
-            "",
-            ""
+            "percent_management_public",
+            "percent_natl_curriculum"
         ]
     },
     {
-        "name": "General information for Primary Schols",
+        "name": "General information for Primary Schools",
         "indicators": [
             "num_primary_schools",
-            "",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "percent_management_public_primary",
+            "percent_natl_curriculum_primary",
+            "num_school_1kmplus_secondary_school",
+            "avg_num_students_primary",
+            "avg_num_tchrs_primary",
+            "avg_num_classrms_primary",
+            "avg_num_toilets_primary"
         ]
     },
     {
-        "name": "General information for Junior Secondary Schols",
+        "name": "General information for Junior Secondary Schools",
         "indicators": [
             "num_junior_secondary_schools",
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
+            "percent_management_public_js",
+            "percent_natl_curriculum_js",
+            "avg_num_students_js",
+            "avg_num_tchrs_js",
+            "avg_num_classrms_js",
+            "avg_num_toilets_js"
         ]
     },
     {
         "name": "Infrastructure in Primary Schools",
         "indicators": [
             "num_primary_schools",
-            "",
-            "",
-            "",
+            "percent_functional_water_primary",
+            "percent_improved_sanitation_primary",
+            "percent_phcn_electricity_primary",
             "pupil_toilet_ratio_primary",
             "proportion_schools_chalkboard_all_rooms_primary"
             ]
@@ -51,9 +51,9 @@
         "name": "Infrastructure in Junior Secondary Schools",
         "indicators": [
             "num_junior_secondary_schools",
-            "",
-            "",
-            "",
+            "percent_functional_water_js
+            "percent_improved_sanitation_js",
+            "percent_phcn_electricity_js",
             "pupil_toilet_ratio_secondary", 
             "proportion_schools_chalkboard_all_rooms_juniorsec"
             ]
@@ -62,18 +62,14 @@
         "name": "Ratios -- Primary Schools",
         "indicators": [
             "student_classroom_ratio_lga_primary",
-            "primary_school_pupil_teachers_ratio_lga",
-            "gender_parity_index_primary",
-            "gender_parity_index_js"
+            "primary_school_pupil_teachers_ratio_lga"
             ]
     },
     {
         "name": "Ratios -- Junior Secondary Schools",
         "indicators": [
             "student_classroom_ratio_lga_juniorsec",
-            "junior_secondary_school_pupil_teachers_ratio_lga",
-            "gender_parity_index_primary",
-            "gender_parity_index_js"
+            "junior_secondary_school_pupil_teachers_ratio_lga"
             ]
     }
     {
@@ -87,11 +83,11 @@
         "name": "Education Facilities Summary",
         "indicators": [
             "num_primary_schools", 
-            "",
-            "",
+            "num_js_schools_multiplecount",
+            "num_ss_schools_multiplecount",
             "num_schools",
             "student_teacher_ratio_lga",
-            ""
+            "percent_teachers_nce_primary"
             ]
     },
 
@@ -119,15 +115,14 @@
     {
         "name": "Services that are provided at Hospitals only",
         "indicators": [
-            "", 
-            "" 
+            "num_hospitals", 
+            "percent_compr_oc_c_sections" 
             ]
     },
     {
         "name": "Services that are provided at all faciltiies except for Health Posts"
         "indicators": [
-            "",
-            "",
+            "num_health_facilities_sansHP",
             "proportion_delivery_24_7_sansHP", 
             "proportion_vaccines_fridge_freezer_sansHP" 
         ], 
@@ -150,7 +145,7 @@
             "proportion_improved_water_supply", 
             "proportion_improved_sanitation",
             "proportion_phcn_electricity",
-            ""
+            "proportion_power_alternative_functional"
         ]
     },
     {
@@ -160,7 +155,7 @@
             "num_level_2_health_facilities",
             "num_level_3_health_facilities", 
             "num_level_4_health_facilities",
-            "", 
+            "facilities_delivery_services_yn", 
             "facilities_emergency_transport",
             "facilities_skilled_birth_attendant",
             "facilities_measles"
