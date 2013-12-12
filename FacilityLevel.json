@@ -99,9 +99,8 @@
             "improved_water_supply", 
             "improved_sanitation",
             "phcn_electricity",
-            "vaccines_fridge_freezer", # vaccine_fridge_yn in mop-up
-            "maternity_ward", # ? in 661/113/pilot
-            "emergency_transport" # transport_yn in mop-up
+            "vaccines_fridge_freezer", 
+            "emergency_transport"
         ], 
     }, 
     {
